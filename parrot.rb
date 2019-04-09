@@ -1,5 +1,5 @@
 def parrot (string, string2 = "Squawk!")
   puts string
-  puts string2
   return string
+  if string == NIL { return string2}
 end
